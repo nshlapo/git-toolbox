@@ -107,6 +107,7 @@ Go ahead and change the word "pick" next to your most recent commit to "squash",
 ## Branching
 Make sure you have a decent understanding of what a "branch" is in git.  [Here's a good starting resource](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is)
 
+<<<<<<< HEAD
 Running `git branch` will display all possible branches, with an asterisk next to the one you're currently editing.  You should see two branches, `master` and `test`.  Running `git branch <branch name>` will create a new branch with the given name, but not switch into it.
 
 To switch what branch you're working on, type the command `git checkout <branch name>`.  Checkout the `test` branch, make a change, and commit it.  Then, switch back to the master branch and run `git log`.  Do you see the commit you just made there?
@@ -114,6 +115,13 @@ To switch what branch you're working on, type the command `git checkout <branch 
 Go back to the `test` branch.  Run git log, and you should see your commit again.
 
 Usually, when you push changes to GitHub, you run `git push origin master` and specify the master branch.  To push this branch, replace the "master" branch name with "test".
+=======
+Running `git branch` will display all possible branches, with an asterisk next to the one you're currently editing.  You should see two branches, `master` and `test`.  
+
+To switch what branch you're working on, type the command `git checkout <branch name>`.  Checkout the `test` branch, make a change, and commit it.  Then, switch back to the master branch and run `git log`.  Do you see the commit you just made there?
+
+You can also branch off commits.  The command `git checkout <commit checksum>` will revert you back to the state of your code at the time of a commit.
+>>>>>>> 59d9a23e632be0a608bb050c083a942c33b3d7f3
 
 ## Interactive Adding
 Go back to your `master` branch and edit `hello.py`.  Add several lines of code in multiple places - for example, a comment at the top, new lines of code at the bottom.  Have at least 5 or 6 new lines of code.
