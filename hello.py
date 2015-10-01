@@ -1,4 +1,11 @@
 #runs 10 times
-for i in range(10):
+n = 10
+
+def endLine():
+    print "*" + " "*(n+1) + "*"
+
+endLine()
+for i in range(n):
     # prints an 'N'
-    print "*" + " "*i + "*" + " "*(10-i) + "*"
+    print "*" + " "*i + "*" + " "*(n-i) + "*"
+endLine()
