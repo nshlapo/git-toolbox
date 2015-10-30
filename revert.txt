@@ -1,0 +1,2 @@
+I used the `git revert` command, which acts like a reset, but maintains the history of changes.
+I introduced a bug in my n-printing code, and then made it print another n on top of that, then reverted the changes and merged.
