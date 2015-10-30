@@ -7,5 +7,6 @@ def endLine():
 endLine()
 for i in range(n):
     # prints an 'N'
-    print "*" + " "*i + "*" + " "*(n-i) + "*"
+    print "*" + "  "*i + "*" + " "*(n-i) + "*"
 endLine()
+
